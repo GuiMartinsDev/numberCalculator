@@ -1,0 +1,57 @@
+:root {
+  --main-color: #a01010;
+  --btn-color: #e4cbcb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#container {
+  max-width: 600px;
+  background-color: var(--main-color);
+  margin: auto;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+#container p {
+  color: #e4cbcb;
+  font-size: 1.2rem;
+}
+
+#inputs1 {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#inputs1 #stringNumber {
+  padding: 0.5rem 0;
+}
+
+.btn {
+  padding: 0.5rem;
+}
+
+#selForm {
+  width: 170px;
+  margin-bottom: 1rem;
+}
+
+#res {
+  margin-top: 1rem;
+}
